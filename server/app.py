@@ -11,10 +11,10 @@ from urllib.parse import quote_plus
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-# Configure NCBI API
-Entrez.email = "sharma.anushkaaaa@gmail.com"  # Your email
-Entrez.api_key = "e4116ee2dc11a7df245928ff03a173a5bd08"  # Your API key
-Entrez.tool = "protein_drug_finder"  # Name of your application
+# Configure NCBI APi
+Entrez.email = "sharma.anushkaaaa@gmail.com"  
+Entrez.api_key = "e4116ee2dc11a7df245928ff03a173a5bd08"  
+Entrez.tool = "protein_drug_finder"  
 
 # PDB API base URL
 PDB_API_BASE = "https://data.rcsb.org/rest/v1"
